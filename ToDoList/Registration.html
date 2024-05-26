@@ -1,0 +1,101 @@
+
+<html>
+<head>
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            box-shadow: 10px 10px 5px rgb(82, 11,77);
+        }
+        .box-outer {
+            border: 1px solid #ccc;
+            background-color: #FFFFFF;
+            margin-bottom: 1rem;
+            padding: 1rem;
+            border-radius: .12rem;
+        }
+        
+        .heading {
+            margin-bottom: 1rem;
+        }
+        .input-control {
+            transition: border .1s linear 0s, box-shadow .1s, width .25s, color .2s;
+            border: 1px solid #ced4da;
+            box-shadow: 0 1px 3px rgb(50 50 93 / 10%), 0 1px 0 rgb(0 0 0 / 2%);
+            display: block;
+            width: 90%;
+            padding: .375rem .75rem;
+            font-size: .969rem;
+            font-weight: 400;
+            line-height: 1.6;
+            color: #212529;
+            background-color: #FFF;
+            background-clip: padding-box;
+            appearance: none;
+            border-radius: .12rem;
+            margin-bottom: 1rem;
+        }
+        .input-control:focus {
+            border-color: #9fd4fc;
+            box-shadow: 0 0 0 4px rgb(0 149 255 / 15%);
+            background-color: #fffffa;
+            outline: 0;
+        }
+        .button {
+            color: #FFFFFF;
+            box-shadow: 0 1px 3px rgb(50 50 93 / 10%), 0 1px 0 rgb(0 0 0 / 2%);
+            background-color: #6dbd45;
+            border: 0;
+            padding: .5rem;
+            border-radius: .12rem;
+            position: relative;
+        }
+        .button:hover {
+            background-color: #51a326;
+        }
+        .button:focus {
+            background-color: #5EA534;
+            top: 1px;
+        }
+       .container {
+          width: 450px;
+         margin: 0 auto;
+          padding: 5px;
+          background-color: #fff;
+        border: 3px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }   
+    </style>
+</head>
+<body>
+    <div class="container" style="max-width:1200px">
+        <div class="box-outer">
+            <form name="signup_form" method="post" action="registration.php" autocomplete="off">
+                <h2 class="heading">Sign Up Form</h2>
+                <label>First Name</label>
+                <input type="text" name="first_name" class="input-control" placeholder="Your first name">
+
+                <label>Last Name</label>
+                <input type="text" name="last_name" class="input-control" placeholder="Your last name">
+
+                <label>Email</label>
+                <input type="text" name="email" class="input-control" placeholder="Your email address">
+
+                <label>Password</label>
+                <input type="password" name="password" class="input-control">
+
+                <input type="submit" name="submit" class="button" value="Signup" align = "center">
+                <p align="center"> Already have an account? <a href="login.html"> Login </a></p>
+            </form>
+            <hr>
+        </div>
+    </div>
+</body>
+</html>
