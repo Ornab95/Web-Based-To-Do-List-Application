@@ -3,7 +3,7 @@
 ## Authors
 
 - **Ornab Biswass**
-- **Nazmul Hasan**
+Additional Author: [Nazmul Hasan](https://github.com/Nazmul196)
 
 ## Overview
 
