@@ -2,8 +2,8 @@
 
 ## Authors
 
-- **Ornab Biswass**
-Additional Author: [Nazmul Hasan](https://github.com/Nazmul196)
+- [Ornab Biswass](https://github.com/Ornab95)
+- Additional Author: [Nazmul Hasan](https://github.com/Nazmul196)
 
 ## Overview
 
